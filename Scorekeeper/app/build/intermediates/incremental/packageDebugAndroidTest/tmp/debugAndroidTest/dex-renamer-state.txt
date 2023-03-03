@@ -1,0 +1,4 @@
+#Mon Feb 27 14:28:38 ULAT 2023
+base.0=C\:\\Users\\ASUS\\AndroidStudioProjects\\Scorekeeper\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeDexDebugAndroidTest\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

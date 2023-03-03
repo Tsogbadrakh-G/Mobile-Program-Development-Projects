@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.android.scorekeeper.NightModeTest" tests="1" failures="0" errors="0" skipped="0" time="26.033" timestamp="2023-02-27T07:24:07" hostname="localhost">
+  <properties>
+    <property name="device" value="Nexus_6_API_30(AVD) - 11" />
+    <property name="flavor" value="" />
+    <property name="project" value="app" />
+  </properties>
+  <testcase name="nightModeTest" classname="com.example.android.scorekeeper.NightModeTest" time="20.042" />
+</testsuite>

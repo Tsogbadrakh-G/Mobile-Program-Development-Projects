@@ -1,0 +1,191 @@
+02-27 15:23:37.478  9639  9659 I TestRunner: started: nightModeTest(com.example.android.scorekeeper.NightModeTest)
+02-27 15:23:37.486  9639  9639 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 0
+02-27 15:23:37.487  9639  9659 W ActivityTestRule: getActivityIntent() returned null using default: Intent(Intent.ACTION_MAIN)
+02-27 15:23:37.488  9639  9659 I ActivityTestRule: Launching activity: ComponentInfo{com.example.android.scorekeeper/com.example.android.scorekeeper.MainActivity}
+02-27 15:23:37.499  9639  9663 D MonitoringInstr: execStartActivity(context, ibinder, ibinder, activity, intent, int, bundle
+02-27 15:23:37.510   572   693 D EventSequenceValidator: Transition from ACTIVITY_FINISHED to INTENT_STARTED
+02-27 15:23:37.551   572   693 D EventSequenceValidator: Transition from INTENT_STARTED to ACTIVITY_LAUNCHED
+02-27 15:23:37.728   572  2210 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:37.728   572  2210 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:37.728   572  2210 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:37.728   572  2210 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:37.728   572  2210 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:37.728   572  2210 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:37.728   572  2210 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:37.728   572  2210 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:37.728   572  2210 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:37.729   572  2210 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:37.729   572  2210 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:37.730   572  2210 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:37.730   572  2210 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:37.730   572  2210 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:37.730   572  2210 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:37.730   572  2210 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:37.730   572  2210 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:37.730   572  2210 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:37.730   572  2210 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:37.730   572  2210 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:37.792   294   294 D goldfish-address-space: claimShared: Ask to claim region [0x3f4000000 0x3f4e10000]
+02-27 15:23:37.896   572   693 W system_server: Long monitor contention with owner Binder:572_11 (2210) at void com.android.server.wm.TaskChangeNotificationController.forAllLocalListeners(com.android.server.wm.TaskChangeNotificationController$TaskStackConsumer, android.os.Message)(TaskChangeNotificationController.java:351) waiters=0 in void com.android.server.wm.ActivityMetricsLogger.checkVisibility(com.android.server.wm.Task, com.android.server.wm.ActivityRecord) for 162ms
+02-27 15:23:38.190   572   693 W system_server: Long monitor contention with owner android.bg (712) at android.os.Message android.os.MessageQueue.next()(MessageQueue.java:387) waiters=0 in boolean android.os.MessageQueue.enqueueMessage(android.os.Message, long) for 291ms
+02-27 15:23:38.535  9639  9671 D libEGL  : loaded /vendor/lib/egl/libEGL_emulation.so
+02-27 15:23:38.594  9639  9671 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+02-27 15:23:38.647  9639  9671 D libEGL  : loaded /vendor/lib/egl/libGLESv2_emulation.so
+02-27 15:23:38.741   572   694 I Choreographer: Skipped 57 frames!  The application may be doing too much work on its main thread.
+02-27 15:23:38.916  9639  9651 I oid.scorekeepe: Background young concurrent copying GC freed 16031(1074KB) AllocSpace objects, 0(0B) LOS objects, 92% free, 1931KB/25MB, paused 2.151ms total 602.567ms
+02-27 15:23:38.981   572  1017 W system_server: Long monitor contention with owner android.anim (694) at void com.android.server.wm.WindowSurfacePlacer$Traverser.run()(WindowSurfacePlacer.java:59) waiters=1 in boolean com.android.server.wm.InputManagerCallback.notifyFocusChanged(android.os.IBinder, android.os.IBinder) for 226ms
+02-27 15:23:38.986   572   693 W system_server: Long monitor contention with owner android.anim (694) at void com.android.server.wm.WindowSurfacePlacer$Traverser.run()(WindowSurfacePlacer.java:59) waiters=0 in void com.android.server.wm.WindowManagerService$H.handleMessage(android.os.Message) for 239ms
+02-27 15:23:39.013  9639  9639 D LifecycleMonitor: Lifecycle status change: com.example.android.scorekeeper.MainActivity@b1d2460 in: PRE_ON_CREATE
+02-27 15:23:39.799  9639  9639 W oid.scorekeepe: JNI critical lock held for 42.457ms on Thread[1,tid=9639,Runnable,Thread*=0xdf001c10,peer=0x722bec28,"main"]
+02-27 15:23:40.355  9639  9639 W oid.scorekeepe: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+02-27 15:23:40.356  9639  9639 W oid.scorekeepe: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+02-27 15:23:40.475  9639  9639 W oid.scorekeepe: JNI critical lock held for 26.056ms on Thread[1,tid=9639,Runnable,Thread*=0xdf001c10,peer=0x722bec28,"main"]
+02-27 15:23:40.520  9639  9639 D LifecycleMonitor: Lifecycle status change: com.example.android.scorekeeper.MainActivity@b1d2460 in: CREATED
+02-27 15:23:40.530  9639  9639 D LifecycleMonitor: Lifecycle status change: com.example.android.scorekeeper.MainActivity@b1d2460 in: STARTED
+02-27 15:23:40.535  9639  9639 D LifecycleMonitor: Lifecycle status change: com.example.android.scorekeeper.MainActivity@b1d2460 in: RESUMED
+02-27 15:23:40.946  9639  9669 D HostConnection: HostConnection::get() New Host Connection established 0xece61410, tid 9669
+02-27 15:23:40.959  9639  9669 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+02-27 15:23:40.977   154   154 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+02-27 15:23:41.003  9639  9669 D EGL_emulation: eglCreateContext: 0xece5f0a0: maj 3 min 0 rcv 3
+02-27 15:23:41.008  9639  9669 D EGL_emulation: eglMakeCurrent: 0xece5f0a0: ver 3 0 (tinfo 0xed197f70) (first time)
+02-27 15:23:41.035   294   294 D goldfish-address-space: claimShared: Ask to claim region [0x3f4e10000 0x3f5c20000]
+02-27 15:23:41.043   154   154 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+02-27 15:23:41.044  9639  9669 I Gralloc4: mapper 4.x is not supported
+02-27 15:23:41.046  9639  9669 D HostConnection: createUnique: call
+02-27 15:23:41.049  9639  9669 D HostConnection: HostConnection::get() New Host Connection established 0xece5f340, tid 9669
+02-27 15:23:41.065  9639  9669 D goldfish-address-space: allocate: Ask for block of size 0x100
+02-27 15:23:41.067  9639  9669 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3f3ffe000 size 0x2000
+02-27 15:23:41.082  9639  9669 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+02-27 15:23:41.087   294   294 D goldfish-address-space: claimShared: Ask to claim region [0x3f5c20000 0x3f6a30000]
+02-27 15:23:41.091   294   294 D goldfish-address-space: claimShared: Ask to claim region [0x3fa0fb000 0x3faf0b000]
+02-27 15:23:42.083   197   200 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+02-27 15:23:42.099   197   200 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+02-27 15:23:42.073   197   197 W Binder:197_2: type=1400 audit(0.0:243): avc: denied { read } for name="wakeup34" dev="sysfs" ino=18670 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+02-27 15:23:42.097   197   197 W Binder:197_2: type=1400 audit(0.0:244): avc: denied { read } for name="wakeup35" dev="sysfs" ino=18733 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+02-27 15:23:43.017  9639  9669 I OpenGLRenderer: Davey! duration=2432ms; Flags=1, IntendedVsync=3335725662608, Vsync=3335792329272, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=3335805194520, AnimationStart=3335805265320, PerformTraversalsStart=3335805365620, DrawStart=3336236886820, SyncQueued=3336245824320, SyncStart=3336248363220, IssueDrawCommandsStart=3336249587520, SwapBuffers=3337814612620, FrameCompleted=3338160861920, DequeueBufferDuration=40830000, QueueBufferDuration=30430400, GpuCompleted=0,
+02-27 15:23:43.079   572   712 D ArtManagerInternalImpl: /data/misc/iorapd/com.example.android.scorekeeper/1/com.example.android.scorekeeper.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+02-27 15:23:43.215   572   712 I ActivityTaskManager: Displayed com.example.android.scorekeeper/.MainActivity: +5s568ms
+02-27 15:23:43.226   572   693 D EventSequenceValidator: Transition from ACTIVITY_LAUNCHED to ACTIVITY_FINISHED
+02-27 15:23:43.326  1516  8754 D NetworkMonitor/103: isDataStall: result=true, tcp packets received=0, latest tcp fail rate=100
+02-27 15:23:43.326  1516  8754 D NetworkMonitor/103: Suspecting data stall, reevaluate
+02-27 15:23:43.796   414   988 E IPCThreadState: binder thread pool (1 threads) starved for 568 ms
+02-27 15:23:43.811   572  1017 W system_server: Long monitor contention with owner android.anim (694) at void com.android.server.wm.WindowAnimator.lambda$new$1$WindowAnimator(long)(WindowAnimator.java:111) waiters=0 in boolean com.android.server.wm.InputManagerCallback.notifyFocusChanged(android.os.IBinder, android.os.IBinder) for 567ms
+02-27 15:23:43.813  9639  9639 W oid.scorekeepe: Verification of int android.support.v7.widget.LinearLayoutCompat.getVirtualChildCount() took 458.544ms (10.90 bytecodes/s) (760B approximate peak alloc)
+02-27 15:23:44.484  9639  9639 W oid.scorekeepe: Verification of android.view.MenuItem android.support.v7.view.menu.MenuItemImpl.setTitleCondensed(java.lang.CharSequence) took 569.097ms (22.84 bytecodes/s) (1024B approximate peak alloc)
+02-27 15:23:44.498  9639  9639 I Choreographer: Skipped 225 frames!  The application may be doing too much work on its main thread.
+02-27 15:23:44.908  1516  9679 D NetworkMonitor/103: PROBE_DNS connectivitycheck.gstatic.com 1099ms OK 142.251.220.35,2404:6800:4005:80d::2003
+02-27 15:23:44.970  1516  9678 D NetworkMonitor/103: PROBE_DNS www.google.com 1158ms OK 142.250.66.68,2404:6800:4005:81b::2004
+02-27 15:23:45.578  9639  9669 I OpenGLRenderer: Davey! duration=4767ms; Flags=0, IntendedVsync=3335875661947, Vsync=3339625661797, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=3339642399020, AnimationStart=3339642451020, PerformTraversalsStart=3339643673820, DrawStart=3339718717620, SyncQueued=3339721059620, SyncStart=3339799735120, IssueDrawCommandsStart=3339800061920, SwapBuffers=3340330755720, FrameCompleted=3340722057120, DequeueBufferDuration=232700, QueueBufferDuration=1386400, GpuCompleted=27303562373758984,
+02-27 15:23:45.745  1516  9679 D NetworkMonitor/103: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=826ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Mon, 27 Feb 2023 07:23:47 GMT], X-Android-Received-Millis=[1677482625744], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1677482625683]}
+02-27 15:23:45.917  9639  9659 W oid.scorekeepe: Verification of void android.support.test.espresso.base.IdlingResourceRegistry$1.allResourcesIdle() took 125.529ms (7.97 bytecodes/s) (712B approximate peak alloc)
+02-27 15:23:45.987  1516  9678 D NetworkMonitor/103: PROBE_HTTPS https://www.google.com/generate_204 time=1009ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[h3=":443"; ma=2592000,h3-29=":443"; ma=2592000], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Mon, 27 Feb 2023 07:23:47 GMT], X-Android-Received-Millis=[1677482625983], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1677482625759]}
+02-27 15:23:46.028  9639  9659 D InputManagerEventInjectionStrategy: Creating injection strategy with input manager.
+02-27 15:23:46.063  9639  9659 W oid.scorekeepe: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (greylist, reflection, allowed)
+02-27 15:23:46.063  9639  9659 W oid.scorekeepe: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (greylist, reflection, allowed)
+02-27 15:23:46.063  9639  9659 W oid.scorekeepe: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (greylist, reflection, allowed)
+02-27 15:23:46.064  9639  9659 W oid.scorekeepe: Accessing hidden method Landroid/view/InputEvent;->getSequenceNumber()I (greylist, reflection, allowed)
+02-27 15:23:46.396  9639  9669 I OpenGLRenderer: Davey! duration=967ms; Flags=0, IntendedVsync=3339708980666, Vsync=3339842313994, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=3339856189520, AnimationStart=3339856261220, PerformTraversalsStart=3339859024520, DrawStart=3339859436520, SyncQueued=3339860711120, SyncStart=3340724305720, IssueDrawCommandsStart=3340844967420, SwapBuffers=3341437622020, FrameCompleted=3341540125320, DequeueBufferDuration=480100, QueueBufferDuration=2231400, GpuCompleted=8678493872896440937,
+02-27 15:23:46.420  9639  9659 W oid.scorekeepe: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (greylist, reflection, allowed)
+02-27 15:23:46.513  9639  9639 W oid.scorekeepe: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (greylist, reflection, allowed)
+02-27 15:23:46.514  9639  9639 W oid.scorekeepe: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (greylist, reflection, allowed)
+02-27 15:23:46.514  9639  9639 W oid.scorekeepe: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (greylist, reflection, allowed)
+02-27 15:23:46.526  9639  9639 W oid.scorekeepe: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (greylist, reflection, allowed)
+02-27 15:23:46.527  9639  9639 W oid.scorekeepe: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (greylist, reflection, allowed)
+02-27 15:23:46.527  9639  9639 W oid.scorekeepe: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (greylist, reflection, allowed)
+02-27 15:23:46.553  9639  9639 I ViewInteraction: Performing 'single click' action on view (with id: com.example.android.scorekeeper:id/increaseTeam1 and with content description: is "Plus Button" and Child at position 3 in parent Child at position 0 in parent with class name: is "android.widget.LinearLayout" and is displayed on the screen to the user)
+02-27 15:23:47.033   572  8941 W system_server: Long monitor contention with owner PackageManager (744) at void com.android.server.pm.PackageManagerService$PackageHandler.doHandleMessage(android.os.Message)(PackageManagerService.java:1808) waiters=0 in int com.android.server.pm.permission.PermissionManagerService.checkUidPermission(java.lang.String, int) for 759ms
+02-27 15:23:47.033   572  2210 W system_server: Long monitor contention with owner PackageManager (744) at void com.android.server.pm.PackageManagerService$PackageHandler.doHandleMessage(android.os.Message)(PackageManagerService.java:1808) waiters=1 in int com.android.server.pm.PackageManagerService$PackageManagerInternalImpl.getUidTargetSdkVersion(int) for 500ms
+02-27 15:23:47.034   572  1337 W system_server: Long monitor contention with owner PackageManager (744) at void com.android.server.pm.PackageManagerService$PackageHandler.doHandleMessage(android.os.Message)(PackageManagerService.java:1808) waiters=2 in int com.android.server.pm.permission.PermissionManagerService.checkUidPermission(java.lang.String, int) for 473ms
+02-27 15:23:47.035  1516  9677 D NetworkMonitor/103: isCaptivePortal: isSuccessful()=true isPortal()=false RedirectUrl=null isPartialConnectivity()=false Time=2638ms
+02-27 15:23:47.047  2606  9527 I NetworkManagementSocketTagger: tagSocketFd(-1, 536871943, -1) failed with errno-9
+02-27 15:23:47.057  9639  9639 E MotionEvents: Overslept and turned a tap into a long press
+02-27 15:23:47.074  2606  9527 W GCM     : socket file descriptor unavailable.
+02-27 15:23:48.345  9639  9669 I OpenGLRenderer: Davey! duration=1261ms; Flags=0, IntendedVsync=3342225708534, Vsync=3342225708534, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=3342239321320, AnimationStart=3342239384020, PerformTraversalsStart=3342242052820, DrawStart=3342242334220, SyncQueued=3342245237320, SyncStart=3342247604020, IssueDrawCommandsStart=3342247786820, SwapBuffers=3342286279320, FrameCompleted=3343489422420, DequeueBufferDuration=1475400, QueueBufferDuration=4347100, GpuCompleted=0,
+02-27 15:23:48.359   572  8941 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+02-27 15:23:48.359   572  8941 I chatty  : uid=1000(system) Binder:572_1F identical 1 line
+02-27 15:23:48.360   572  8941 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+02-27 15:23:48.393   368   471 D AudioFlinger: mixer(0xe7ca3030) throttle end: throttle time(39)
+02-27 15:23:48.398   572  1337 D WifiNl80211Manager: Scan result ready event
+02-27 15:23:48.399   572  1337 D WifiNative: Scan result ready event
+02-27 15:23:48.402  9639  9639 I Choreographer: Skipped 78 frames!  The application may be doing too much work on its main thread.
+02-27 15:23:48.436   368   471 D AudioFlinger: mixer(0xe7ca3030) throttle end: throttle time(4)
+02-27 15:23:48.971   280  5601 W android.hardware.audio.service.ranchu: TinyalsaSink::write:125 pcm_write was late reading frames, dropping 22131 us of audio
+02-27 15:23:49.213   368   471 W AudioFlinger: write blocked for 771 msecs, 2 delayed writes, thread 13
+02-27 15:23:49.272  9639  9639 I Choreographer: Skipped 51 frames!  The application may be doing too much work on its main thread.
+02-27 15:23:49.376   572  1337 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+02-27 15:23:49.454  9639  9669 I OpenGLRenderer: Davey! duration=1532ms; Flags=0, IntendedVsync=3342242372308, Vsync=3343542372256, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=3343546557020, AnimationStart=3343546623520, PerformTraversalsStart=3343548666220, DrawStart=3343554220420, SyncQueued=3343555811120, SyncStart=3344378907920, IssueDrawCommandsStart=3344379115220, SwapBuffers=3344457464020, FrameCompleted=3344598026720, DequeueBufferDuration=102912600, QueueBufferDuration=33048800, GpuCompleted=216172816473522180,
+02-27 15:23:49.579  9639  9669 I OpenGLRenderer: Davey! duration=985ms; Flags=0, IntendedVsync=3343559044896, Vsync=3344409044862, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=3344416507220, AnimationStart=3344416580520, PerformTraversalsStart=3344427708320, DrawStart=3344428064320, SyncQueued=3344428567120, SyncStart=3344607009120, IssueDrawCommandsStart=3344607111620, SwapBuffers=3344613421620, FrameCompleted=3344723325820, DequeueBufferDuration=58172900, QueueBufferDuration=11064600, GpuCompleted=14881,
+02-27 15:23:49.619  9639  9639 I ViewInteraction: Performing 'single click' action on view (with id: com.example.android.scorekeeper:id/decreaseTeam1 and with content description: is "Minus Button" and Child at position 1 in parent Child at position 0 in parent with class name: is "android.widget.LinearLayout" and is displayed on the screen to the user)
+02-27 15:23:49.906   572  8941 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+02-27 15:23:50.058   572  8941 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+02-27 15:23:50.427  9639  9639 I ViewInteraction: Performing 'Handle transition between action bar and action bar context.' action on view is a root view.
+02-27 15:23:50.566  9639  9639 I ViewInteraction: Performing 'single click' action on view ((is displayed on the screen to the user and with content description: is "More options") or (is displayed on the screen to the user and with class name: a string ending with "OverflowMenuButton"))
+02-27 15:23:50.706  9639  9639 W oid.scorekeepe: Accessing hidden method Landroid/widget/PopupWindow;->setClipToScreenEnabled(Z)V (greylist, reflection, allowed)
+02-27 15:23:50.762   572  1337 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+02-27 15:23:50.982   572  2210 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+02-27 15:23:51.058  9639  9639 W oid.scorekeepe: Accessing hidden field Landroid/widget/AbsListView;->mIsChildViewEnabled:Z (greylist, reflection, allowed)
+02-27 15:23:51.138  9639  9639 W oid.scorekeepe: Accessing hidden field Landroid/widget/PopupWindow;->mOverlapAnchor:Z (greylist-max-p, reflection, allowed)
+02-27 15:23:51.268  9639  9639 I Choreographer: Skipped 37 frames!  The application may be doing too much work on its main thread.
+02-27 15:23:51.366   294   294 D goldfish-address-space: claimShared: Ask to claim region [0x3f798a000 0x3f7ae7000]
+02-27 15:23:51.451   294   294 D goldfish-address-space: claimShared: Ask to claim region [0x3f7ae7000 0x3f7c44000]
+02-27 15:23:51.477   294   294 D goldfish-address-space: claimShared: Ask to claim region [0x3f7c44000 0x3f7da1000]
+02-27 15:23:51.596  9639  9669 I OpenGLRenderer: Davey! duration=908ms; Flags=1, IntendedVsync=3345792325719, Vsync=3346408992361, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=3346412856520, AnimationStart=3346412933820, PerformTraversalsStart=3346414473420, DrawStart=3346577005120, SyncQueued=3346579326120, SyncStart=3346618500520, IssueDrawCommandsStart=3346618845920, SwapBuffers=3346726856520, FrameCompleted=3346740186420, DequeueBufferDuration=1488000, QueueBufferDuration=5422300, GpuCompleted=72904454231491230,
+02-27 15:23:52.219   294   294 D goldfish-address-space: claimShared: Ask to claim region [0x3f7ae7000 0x3f7c44000]
+02-27 15:23:52.683   294   294 D goldfish-address-space: claimShared: Ask to claim region [0x3f7c44000 0x3f7da1000]
+02-27 15:23:52.687  9639  9669 I OpenGLRenderer: Davey! duration=1003ms; Flags=1, IntendedVsync=3346825647048, Vsync=3346825647048, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=3346834800420, AnimationStart=3346834866320, PerformTraversalsStart=3346880450620, DrawStart=3347371007320, SyncQueued=3347371543020, SyncStart=3347373333220, IssueDrawCommandsStart=3347373504920, SwapBuffers=3347786281120, FrameCompleted=3347830604620, DequeueBufferDuration=2843600, QueueBufferDuration=3165800, GpuCompleted=43984843964424,
+02-27 15:23:52.694  9639  9639 I Choreographer: Skipped 50 frames!  The application may be doing too much work on its main thread.
+02-27 15:23:52.714   294   294 D goldfish-address-space: claimShared: Ask to claim region [0x3f715d000 0x3f72ba000]
+02-27 15:23:52.718  9639  9669 I OpenGLRenderer: Davey! duration=868ms; Flags=0, IntendedVsync=3346992313708, Vsync=3347825647008, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=3347838458020, AnimationStart=3347838555320, PerformTraversalsStart=3347840674820, DrawStart=3347840984220, SyncQueued=3347841503520, SyncStart=3347842916920, IssueDrawCommandsStart=3347843075520, SwapBuffers=3347850245120, FrameCompleted=3347862121420, DequeueBufferDuration=3971300, QueueBufferDuration=4347700, GpuCompleted=144115222452437075,
+02-27 15:23:53.094  9639  9639 I ViewInteraction: Performing 'single click' action on view (with id: com.example.android.scorekeeper:id/title and with text: is "Night Mode" and Child at position 0 in parent Child at position 0 in parent with class name: is "android.support.v7.view.menu.ListMenuItemView" and is displayed on the screen to the user)
+02-27 15:23:53.274   572  8941 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+02-27 15:23:53.299   368   471 D AudioFlinger: mixer(0xe7ca3030) throttle end: throttle time(80)
+02-27 15:23:53.394  9639  9639 D LifecycleMonitor: Lifecycle status change: com.example.android.scorekeeper.MainActivity@b1d2460 in: PAUSED
+02-27 15:23:53.468   572  1337 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+02-27 15:23:53.645  9639  9639 D LifecycleMonitor: Lifecycle status change: com.example.android.scorekeeper.MainActivity@b1d2460 in: STOPPED
+02-27 15:23:53.647  9639  9639 D LifecycleMonitor: Lifecycle status change: com.example.android.scorekeeper.MainActivity@b1d2460 in: DESTROYED
+02-27 15:23:53.747  9639  9669 D OpenGLRenderer: endAllActiveAnimators on 0xe69cceb0 (MenuPopupWindow$MenuDropDownListView) with handle 0xbd1415f0
+02-27 15:23:53.985  9639  9639 D LifecycleMonitor: Lifecycle status change: com.example.android.scorekeeper.MainActivity@d0cb141 in: PRE_ON_CREATE
+02-27 15:23:54.118  9639  9639 D LifecycleMonitor: Lifecycle status change: com.example.android.scorekeeper.MainActivity@d0cb141 in: CREATED
+02-27 15:23:54.127  9639  9639 D LifecycleMonitor: Lifecycle status change: com.example.android.scorekeeper.MainActivity@d0cb141 in: STARTED
+02-27 15:23:54.133  9639  9639 D LifecycleMonitor: Lifecycle status change: com.example.android.scorekeeper.MainActivity@d0cb141 in: RESUMED
+02-27 15:23:54.149  9639  9639 I Choreographer: Skipped 50 frames!  The application may be doing too much work on its main thread.
+02-27 15:23:54.239   294   294 D goldfish-address-space: claimShared: Ask to claim region [0x3f4000000 0x3f4e10000]
+02-27 15:23:54.293   294   294 D goldfish-address-space: claimShared: Ask to claim region [0x3f4e10000 0x3f5c20000]
+02-27 15:23:54.296   294   294 D goldfish-address-space: claimShared: Ask to claim region [0x3f5c20000 0x3f6a30000]
+02-27 15:23:54.397  9639  9669 I OpenGLRenderer: Davey! duration=1077ms; Flags=1, IntendedVsync=3348458988834, Vsync=3349292322134, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=3349293001020, AnimationStart=3349293057220, PerformTraversalsStart=3349294256120, DrawStart=3349427790620, SyncQueued=3349434952620, SyncStart=3349439324220, IssueDrawCommandsStart=3349439626120, SwapBuffers=3349487806020, FrameCompleted=3349541205520, DequeueBufferDuration=684600, QueueBufferDuration=2879800, GpuCompleted=0,
+02-27 15:23:55.110  9639  9639 I ViewInteraction: Performing 'single click' action on view (with id: com.example.android.scorekeeper:id/increaseTeam1 and with content description: is "Plus Button" and Child at position 3 in parent Child at position 0 in parent with class name: is "android.widget.LinearLayout" and is displayed on the screen to the user)
+02-27 15:23:55.176   368   471 D AudioFlinger: mixer(0xe7ca3030) throttle end: throttle time(36)
+02-27 15:23:55.222   368   471 D AudioFlinger: mixer(0xe7ca3030) throttle end: throttle time(9)
+02-27 15:23:55.223   572  1337 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+02-27 15:23:55.272   572  1337 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+02-27 15:23:55.427  9639  9639 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=with text: is "1"}' assertion on view (with id: com.example.android.scorekeeper:id/score_1 and with text: is "1" and has parent matching: has parent matching: an instance of android.widget.LinearLayout and is displayed on the screen to the user)
+02-27 15:23:55.449  9639  9639 I ViewInteraction: Performing 'single click' action on view (with id: com.example.android.scorekeeper:id/decreaseTeam1 and with content description: is "Minus Button" and Child at position 1 in parent Child at position 0 in parent with class name: is "android.widget.LinearLayout" and is displayed on the screen to the user)
+02-27 15:23:55.517   572  1337 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+02-27 15:23:55.571   368   471 D AudioFlinger: mixer(0xe7ca3030) throttle end: throttle time(29)
+02-27 15:23:55.639   368   471 D AudioFlinger: mixer(0xe7ca3030) throttle end: throttle time(10)
+02-27 15:23:55.656   572  1337 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+02-27 15:23:55.773  9639  9639 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=with text: is "0"}' assertion on view (with id: com.example.android.scorekeeper:id/score_1 and with text: is "0" and has parent matching: has parent matching: an instance of android.widget.LinearLayout and is displayed on the screen to the user)
+02-27 15:23:55.790   294   294 D goldfish-address-space: claimShared: Ask to claim region [0x3f84db000 0x3f92eb000]
+02-27 15:23:55.893  9639  9639 D LifecycleMonitor: Lifecycle status change: com.example.android.scorekeeper.MainActivity@d0cb141 in: PAUSED
+02-27 15:23:56.027   572  1738 D HostConnection: HostConnection::get() New Host Connection established 0xb2151650, tid 1738
+02-27 15:23:56.038   572  3226 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:56.038   572  3226 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:56.038   572  3226 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:56.038   572  3226 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:56.038   572  3226 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:56.038   572  3226 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:56.038   572  3226 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:56.038   572  3226 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:56.038   572  3226 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:56.038   572  3226 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:56.039   572  3226 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:56.039   572  3226 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:56.039   572  3226 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:56.039   572  3226 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:56.039   572  3226 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:56.039   572  3226 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:56.039   572  3226 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:56.039   572  3226 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:56.039   572  3226 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:56.039   572  3226 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+02-27 15:23:56.047  9639  9659 I TestRunner: finished: nightModeTest(com.example.android.scorekeeper.NightModeTest)

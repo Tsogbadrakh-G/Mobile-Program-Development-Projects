@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android.tabexperiment"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:5:5-38:19
+12        android:allowBackup="true"
+12-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:6:9-35
+13        android:debuggable="true"
+14        android:icon="@mipmap/ic_launcher"
+14-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:7:9-43
+15        android:label="@string/app_name"
+15-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:8:9-41
+16        android:roundIcon="@mipmap/ic_launcher_round"
+16-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:9:9-54
+17        android:supportsRtl="true"
+17-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:10:9-35
+18        android:testOnly="true"
+19        android:theme="@style/AppTheme" >
+19-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:11:9-40
+20        <activity
+20-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:12:9-18:20
+21            android:name="com.example.android.tabexperiment.icecream"
+21-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:13:13-37
+22            android:exported="true"
+22-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:14:13-36
+23            android:parentActivityName="com.example.android.tabexperiment.MainActivity" >
+23-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:15:13-55
+24            <meta-data
+24-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:16:13-17:48
+25                android:name="android.support.PARENT_ACTIVITY"
+25-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:16:24-70
+26                android:value=".MainActivity" />
+26-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:17:17-46
+27        </activity>
+28        <activity
+28-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:19:9-24:20
+29            android:name="com.example.android.tabexperiment.froyo"
+29-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:20:13-34
+30            android:exported="true"
+30-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:21:13-36
+31            android:parentActivityName="com.example.android.tabexperiment.MainActivity" >
+31-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:21:37-79
+32            <meta-data
+32-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:16:13-17:48
+33                android:name="android.support.PARENT_ACTIVITY"
+33-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:16:24-70
+34                android:value=".MainActivity" />
+34-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:17:17-46
+35        </activity>
+36        <activity
+36-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:25:9-30:20
+37            android:name="com.example.android.tabexperiment.donut"
+37-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:26:13-34
+38            android:exported="true"
+38-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:27:13-36
+39            android:parentActivityName="com.example.android.tabexperiment.MainActivity" >
+39-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:27:37-79
+40            <meta-data
+40-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:16:13-17:48
+41                android:name="android.support.PARENT_ACTIVITY"
+41-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:16:24-70
+42                android:value=".MainActivity" />
+42-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:17:17-46
+43        </activity>
+44        <activity android:name="com.example.android.tabexperiment.MainActivity" >
+44-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:31:9-37:20
+44-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:31:19-47
+45            <intent-filter>
+45-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:32:13-36:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:33:17-69
+46-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:33:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:35:17-77
+48-->C:\Users\ASUS\AndroidStudioProjects\hw-4.4\hw-4.4\app\src\main\AndroidManifest.xml:35:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <meta-data
+52-->[com.android.support:design:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\b78c63140a977d487b336f68b5a5499b\transformed\design-26.1.0\AndroidManifest.xml:26:9-28:38
+53            android:name="android.support.VERSION"
+53-->[com.android.support:design:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\b78c63140a977d487b336f68b5a5499b\transformed\design-26.1.0\AndroidManifest.xml:27:13-51
+54            android:value="26.1.0" />
+54-->[com.android.support:design:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\b78c63140a977d487b336f68b5a5499b\transformed\design-26.1.0\AndroidManifest.xml:28:13-35
+55        <meta-data
+55-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\11bd74f736bb0e2a6bf716fcf6093b29\transformed\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+56            android:name="android.arch.lifecycle.VERSION"
+56-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\11bd74f736bb0e2a6bf716fcf6093b29\transformed\runtime-1.0.0\AndroidManifest.xml:26:13-58
+57            android:value="27.0.0-SNAPSHOT" />
+57-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\11bd74f736bb0e2a6bf716fcf6093b29\transformed\runtime-1.0.0\AndroidManifest.xml:27:13-44
+58    </application>
+59
+60</manifest>

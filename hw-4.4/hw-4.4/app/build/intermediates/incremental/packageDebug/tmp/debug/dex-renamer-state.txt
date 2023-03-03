@@ -1,0 +1,4 @@
+#Thu Mar 02 18:02:27 ULAT 2023
+base.0=C\:\\Users\\ASUS\\AndroidStudioProjects\\hw-4.4\\hw-4.4\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
